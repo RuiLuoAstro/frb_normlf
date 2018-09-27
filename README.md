@@ -19,4 +19,4 @@ $ ./simufrb.py -alpha alpha -logls logls -ns Nfrb -thre flux_thre -dnu specwidth
 
 Options: 
 
--alpha  &nbsp;  &nbsp;   Input the power-law index of FRB luminosity function
+-alpha  &nbsp;  &nbsp; &emsp;&emsp;  Input the power-law index of FRB luminosity function
