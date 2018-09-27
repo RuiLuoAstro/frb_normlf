@@ -60,9 +60,10 @@ Get the contour data, which contains the best inferred value and error area of e
 ## Appendix
 The use of mcmc_simu.py and mcmc_samp.py
 
-Example:
+Examples:
 
 $ ./mcmc_simu.py -f inputfile -o outputfile -g galaxy_type
+
 $ ./mcmc_frb.py -upper -f inputfile -o outputfile -g galaxy_type
 
 Options:
