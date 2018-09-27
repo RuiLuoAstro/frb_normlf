@@ -16,11 +16,11 @@ If you would like to use this package to do FRB statistics, please cite the pape
 **PyMultiNest** (see https://github.com/JohannesBuchner/PyMultiNest for more details)
 
 ## Simulate mock FRB data
-Example: 
+*Example*: 
 
 $ ./simufrb.py -alpha alpha -logls logls -ns Nfrb -thre flux_thre -dnu specwidth -type galaxy_type -o simfrb.txt
 
-Options: 
+*Options*: 
 
 -alpha  &emsp;&emsp;&emsp;&emsp;  Inputs the power-law index of FRB luminosity function
 
@@ -58,15 +58,15 @@ $ .condat.sh &emsp;&emsp;&emsp;&emsp;
 Get the contour data, which contains the best inferred value and error area of each parameter. 
 
 ## Appendix
-The use of mcmc_simu.py and mcmc_samp.py
+**The use of mcmc_simu.py and mcmc_samp.py**
 
-Examples:
+*Examples*:
 
 $ ./mcmc_simu.py -f inputfile -o outputfile -g galaxy_type
 
 $ ./mcmc_frb.py -upper -f inputfile -o outputfile -g galaxy_type
 
-Options:
+*Options*:
 
 -f &emsp;&emsp;&emsp;&emsp;&emsp; Inputs the FRB catalog
 
