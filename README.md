@@ -6,7 +6,7 @@ FRB mock data simulator and a Bayesian MCMC framework to measure FRB luminosity 
 
 If you would like to use this code to do FRB statistical studies, please cite the paper [Luo et al. 2018, MNRAS, 481, 2320](http://adsabs.harvard.edu/abs/2018MNRAS.481.2320L)
 
-## Dependancies
+## Dependencies
 
 ### Python (2.7.x), Numpy (1.14 at least), Scipy (1.0.0 at least), PyMultiNest (see https://github.com/JohannesBuchner/PyMultiNest for more details), Matplotlib
 
