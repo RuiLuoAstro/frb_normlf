@@ -4,7 +4,7 @@ FRB mock data simulator and a Bayesian MCMC framework to measure FRB luminosity 
 
 ## NOTICE
 
-If you would like to use this package to do FRB statistics, please cite the paper [Luo et al. 2018, MNRAS, 481, 2320](http://adsabs.harvard.edu/abs/2018MNRAS.481.2320L)
+If you would like to use this code to do FRB statistical studies, please cite the paper [Luo et al. 2018, MNRAS, 481, 2320](http://adsabs.harvard.edu/abs/2018MNRAS.481.2320L)
 
 ## Dependancies
 
