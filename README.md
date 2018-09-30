@@ -10,7 +10,6 @@ If you would like to use this package to do FRB statistics, please cite the pape
 
 ### Python (2.7.x), Numpy (1.14 at least), Scipy (1.0.0 at least), PyMultiNest (see https://github.com/JohannesBuchner/PyMultiNest for more details), Matplotlib
 
-
 ## Simulate mock FRB data
 ### Example: 
 
