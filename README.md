@@ -12,9 +12,9 @@ If you would like to use this code to do FRB statistical studies, please cite th
 
 ## Simulate mock FRB data
 ### Example: 
-
-$ ./simufrb.py -alpha alpha -logls logls -ns Nfrb -thre flux_thre -dnu specwidth -type galaxy_type -o simfrb.txt
-
+```
+ ./simufrb.py -alpha alpha -logls logls -ns Nfrb -thre flux_thre -dnu specwidth -type galaxy_type -o simfrb.txt
+```
 ### Options: 
 
 -alpha  &emsp;&emsp;&emsp;&emsp;  **Inputs the power-law index of FRB luminosity function**
@@ -34,22 +34,22 @@ $ ./simufrb.py -alpha alpha -logls logls -ns Nfrb -thre flux_thre -dnu specwidth
 ## Verify the mock data using PyMultiNest
 ### Use:
 
-$ ./run_simu.sh &emsp;&emsp;&emsp;&emsp;
+``` ./run_simu.sh ``` &emsp;&emsp;&emsp;&emsp;
 **Notes: better implement it in cluster where MPI was installed well**
 
-$ ./draw_sim.sh &emsp;&emsp;&emsp;&emsp;
+``` ./draw_sim.sh ``` &emsp;&emsp;&emsp;&emsp;
 **Plot the posterior distribution contours of the mock data**
 
 ## Measure the FRB LF of current sample
 ### Use:
 
-$ ./run_samp.sh &emsp;&emsp;&emsp;&emsp;
+``` ./run_samp.sh ``` &emsp;&emsp;&emsp;&emsp;
 **Notes: better implement it in the cluster where MPI was installed well**
 
-$ ./draw_samp.sh &emsp;&emsp;&emsp;&emsp;
+``` ./draw_samp.sh ``` &emsp;&emsp;&emsp;&emsp;
 **Plot the posterior distribution contours of the real FRB sample**
 
-$ .condat.sh &emsp;&emsp;&emsp;&emsp;
+``` .condat.sh ``` &emsp;&emsp;&emsp;&emsp;
 **Get the contour data, which contains the best inferred value and error area of each parameter** 
 
 ## Appendix
@@ -57,10 +57,11 @@ $ .condat.sh &emsp;&emsp;&emsp;&emsp;
 
 **Examples**:
 
-$ ./mcmc_simu.py -f inputfile -o outputfile -g galaxy_type
+``` 
+ ./mcmc_simu.py -f inputfile -o outputfile -g galaxy_type 
 
-$ ./mcmc_frb.py -upper -f inputfile -o outputfile -g galaxy_type
-
+ ./mcmc_frb.py -upper -f inputfile -o outputfile -g galaxy_type
+```
 **Options**:
 
 -f &emsp;&emsp;&emsp;&emsp;&emsp; **Inputs the FRB catalog**
