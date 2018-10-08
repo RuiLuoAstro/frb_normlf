@@ -53,14 +53,14 @@ If you would like to use this code to do FRB statistical studies, please cite th
 ## Appendix
 The usage of mcmc_simu.py and mcmc_samp.py
 
-### Examples
+### Examples:
 
 ``` 
- ./mcmc_simu.py -f inputfile -o outputfile -g galaxy_type 
+./mcmc_simu.py -f inputfile -o outputfile -g galaxy_type 
 
- ./mcmc_frb.py -upper -f inputfile -o outputfile -g galaxy_type
+./mcmc_frb.py -upper -f inputfile -o outputfile -g galaxy_type
 ```
-### Options
+### Options:
 
 -f &emsp;&emsp;&emsp;&emsp;&emsp; **Inputs the FRB catalog**
 
