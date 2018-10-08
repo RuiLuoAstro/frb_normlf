@@ -32,7 +32,6 @@ If you would like to use this code to do FRB statistical studies, please cite th
 -o &emsp;&emsp;&emsp;&emsp;&emsp;  **Outputs the mock data in .txt format**
 
 ## Verify the mock data using PyMultiNest
-### Use:
 
 ``` ./run_simu.sh ``` &emsp;&emsp;&emsp;&emsp;
 **Notes: better implement it in cluster where MPI was installed well**
@@ -41,7 +40,6 @@ If you would like to use this code to do FRB statistical studies, please cite th
 **Plot the posterior distribution contours of the mock data**
 
 ## Measure the FRB LF of current sample
-### Use:
 
 ``` ./run_samp.sh ``` &emsp;&emsp;&emsp;&emsp;
 **Notes: better implement it in the cluster where MPI was installed well**
@@ -53,7 +51,7 @@ If you would like to use this code to do FRB statistical studies, please cite th
 **Get the contour data, which contains the best inferred value and error area of each parameter** 
 
 ## Appendix
-### The use of mcmc_simu.py and mcmc_samp.py
+The usage of mcmc_simu.py and mcmc_samp.py
 
 **Examples**:
 
