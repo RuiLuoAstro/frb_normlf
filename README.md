@@ -39,7 +39,7 @@ If you would like to use this code to do FRB statistical studies, please cite th
 ``` ./draw_sim.sh ``` &emsp;&emsp;&emsp;&emsp;
 **Plot the posterior distribution contours of the mock data**
 
-## Measure the FRB LF of current sample
+## Measure the normalized FRB LF with sample
 
 ``` ./run_samp.sh ``` &emsp;&emsp;&emsp;&emsp;
 **Notes: better implement it in the cluster where MPI was installed well**
