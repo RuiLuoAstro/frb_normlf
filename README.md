@@ -4,7 +4,7 @@ FRB mock data simulator and a Bayesian MCMC framework to measure the normalized 
 
 ## Reference
 
-If you would like to use this code to do FRB statistical studies, please cite the paper [Luo et al. 2018, MNRAS, 481, 2320](https://ui.adsabs.harvard.edu/abs/2018MNRAS.481.2320L/abstract)
+If you would like to use this code to study FRB sample statistically, please cite the paper [Luo et al. 2018, MNRAS, 481, 2320](https://ui.adsabs.harvard.edu/abs/2018MNRAS.481.2320L/abstract)
 
 ## Dependencies
 
