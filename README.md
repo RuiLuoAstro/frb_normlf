@@ -34,21 +34,21 @@ Python (2.7.x), Numpy (1.14 at least), Scipy (1.0.0 at least), PyMultiNest (see 
 ## Verify the mock data using PyMultiNest
 
 ``` ./run_simu.sh ``` &emsp;&emsp;&emsp;&emsp;
-**Notes: better implement it in cluster where MPI was installed well**
+**Notes: better implement it in cluster where MPI was installed well. The posterior outputs are saved on ./mn_out/**
 
 ``` ./draw_sim.sh ``` &emsp;&emsp;&emsp;&emsp;
-**Plot the posterior distribution contours of the mock data**
+**Plot the posterior distribution contours of the mock data, which are made on ./plots/simu/**
 
 ## Measure the normalized FRB LF with sample
 
 ``` ./run_samp.sh ``` &emsp;&emsp;&emsp;&emsp;
-**Notes: better implement it in the cluster where MPI was installed well**
+**Notes: better implement it in the cluster where MPI was installed well. The posterior outputs are saved on ./mn_out/**
 
 ``` ./draw_samp.sh ``` &emsp;&emsp;&emsp;&emsp;
-**Plot the posterior distribution contours of the real FRB sample**
+**Plot the posterior distribution contours of the real FRB sample, which are made on ./plots/normal/ or ./plots/upper/**
 
 ``` .condat.sh ``` &emsp;&emsp;&emsp;&emsp;
-**Get the contour data, which contains the best inferred value and error area of each parameter** 
+**Get the contour data, which contains the best inferred value and error area of each parameter. The data are located in ./lfdat/** 
 
 ## Appendix
 The usage of mcmc_simu.py and mcmc_samp.py
