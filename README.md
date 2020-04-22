@@ -8,7 +8,7 @@ If you would like to use this code to do FRB statistical studies, please cite th
 
 ## Dependencies
 
-### Python (2.7.x), Numpy (1.14 at least), Scipy (1.0.0 at least), PyMultiNest (see https://github.com/JohannesBuchner/PyMultiNest for more details), Matplotlib
+Python (2.7.x), Numpy (1.14 at least), Scipy (1.0.0 at least), PyMultiNest (see https://github.com/JohannesBuchner/PyMultiNest for more details), Matplotlib
 
 ## Simulate mock FRB data
 ### Example: 
