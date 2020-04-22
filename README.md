@@ -1,6 +1,6 @@
 # frb_normlf
 
-FRB mock data simulator and a Bayesian MCMC framework to measure FRB luminosity function
+FRB mock data simulator and a Bayesian MCMC framework to measure the normalized FRB luminosity function
 
 ## NOTICE
 
